@@ -7,13 +7,13 @@ function TypedText() {
       sequence={[
         "I'm a Student.",
         1000, 
-        "I'm a Frontend Developer.",
+        "I'm a Python Developer.",
         1000, 
-        "I'm a UI/UX designer.",
+        "I'm a Data Scientist.",
         1000, 
       ]}
       wrapper="h3"
-      speed={10}
+      speed={9}
       repeat={Infinity}
     />
   )

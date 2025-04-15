@@ -5,7 +5,7 @@ export const headData = [
         id:1,
         heroImage:heroImage,
         intro: "Hello, I'm",
-        name: "Krishna borude",
+        name: "Krishna Borude",
         profession: "A Student who",
         hedingText1: "Judges a book",
         hedingText2: "by its",
