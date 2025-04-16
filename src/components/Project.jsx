@@ -26,15 +26,6 @@ function Project() {
                 >
                   <LuMousePointerClick />
                 </a>
-                {/* <a
-                  href={figmalink}
-                  style={{ cursor: figmalink === "#" ? "not-allowed" : "pointer" }}
-                  onClick={(e) => {
-                    if (figmalink === "#") e.preventDefault();
-                  }}
-                >
-                  <LuMousePointerClick />
-                </a> */}
                 <a
                   href={githublink}
                   style={{ cursor: githublink === "#" ? "not-allowed" : "pointer" }}

@@ -324,9 +324,9 @@ span {
   content: 'Host';
 }
 
-.project-card a:nth-child(2)::after {
+/* .project-card a:nth-child(2)::after {
   content: 'Figma';
-}
+} */
 
 .project-card a:nth-child(3)::after {
   content: 'Github';
