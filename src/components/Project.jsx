@@ -10,7 +10,7 @@ function Project() {
 
         <div className="projects-content">
           {
-          projectsData.map(({ img, des, name, tech, prokectlink,figmalink,githublink }, index) => {
+          projectsData.map(({ img, des, name, tech, prokectlink,githublink }, index) => {
             return (
               <article className="project-card" key={index}>
                 <img src={img} alt="" />

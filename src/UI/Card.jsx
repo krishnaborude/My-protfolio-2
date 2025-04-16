@@ -10,7 +10,7 @@ function Card({CardIcon,CardName, CardInfo,CardLink}) {
         <div className="card-content">
             <h4>{CardName}</h4>
             <small>{CardInfo}</small>
-            <a className='card-btn' disabled>View Certificate</a>
+            <a className='card-btn'>View Certificate</a>
         </div>
     </article>
   )
