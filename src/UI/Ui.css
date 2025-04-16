@@ -21,7 +21,6 @@
     text-transform: uppercase;
     display: block;
     width: fit-content;
-    cursor: not-allowed;
     padding: 10px 21px;
     border: 2px var(--color-primary) solid;
     border-radius: 15px;
