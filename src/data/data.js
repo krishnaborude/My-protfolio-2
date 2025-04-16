@@ -85,10 +85,10 @@ export const projectsData = [
     {
         id:2,
         img:project2,
-        name:'Personal Portfolio v2.0',
-        des:'',
-        prokectlink:'',
-        githublink:''
+        name:'Personal Portfolio 2',
+        des:"I'm Krishna Borude — a student who loves clean UIs and even cleaner code. This portfolio is my playground — explore, click, be inspired.",
+        prokectlink:'https://my-protfolio-v2.vercel.app/',
+        githublink:'https://github.com/krishnaborude/My-protfolio-2'
     },
     {
         id:3,

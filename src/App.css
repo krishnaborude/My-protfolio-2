@@ -328,9 +328,9 @@ span {
   content: 'Github';
 }
 
-.project-card a:nth-child(3)::after {
+/* .project-card a:nth-child(3)::after {
   content: 'Github';
-}
+} */
 
 .project-card a::after {
   position: absolute;
