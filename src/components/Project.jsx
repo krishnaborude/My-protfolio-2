@@ -26,7 +26,7 @@ function Project() {
                 >
                   <LuMousePointerClick />
                 </a>
-                <a
+                {/* <a
                   href={figmalink}
                   style={{ cursor: figmalink === "#" ? "not-allowed" : "pointer" }}
                   onClick={(e) => {
@@ -34,7 +34,7 @@ function Project() {
                   }}
                 >
                   <LuMousePointerClick />
-                </a>
+                </a> */}
                 <a
                   href={githublink}
                   style={{ cursor: githublink === "#" ? "not-allowed" : "pointer" }}

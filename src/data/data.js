@@ -42,28 +42,28 @@ export const experienceData = [
         icon:cardIcon1,
         cardName:'HTML',
         cardInfo:'The backbone of my web projects — clean, semantic, and accessible by design.',
-        cardLink:'#'
+        cardLink:'https://courses.cognitiveclass.ai/certificates/00a9645cbf04458abdd9bf1f71ae303c'
     },
     {
         id:2,
         icon:cardIcon2,
         cardName:'Python',
         cardInfo:'The core of my problem-solving — I use it mainly for DSA and logic-building practice.',
-        cardLink:'#'
+        cardLink:'https://www.hackerrank.com/certificates/b95be5c791f0'
     },
     {
         id:3,
         icon:cardIcon3,
         cardName:'CSS',
         cardInfo:'I use CSS to bring life to my designs — responsive, modern, and visually sharp.',
-        cardLink:'#'
+        cardLink:'https://www.hackerrank.com/certificates/c2b578143236'
     },
     {
         id:4,
         icon:cardIcon4,
         cardName:'JavaScript',
         cardInfo:'Adds interactivity to my web apps — from UI logic to dynamic content handling.',
-        cardLink:'#'
+        cardLink:''
     }
 ] 
 
