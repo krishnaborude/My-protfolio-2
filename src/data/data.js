@@ -63,7 +63,7 @@ export const experienceData = [
         icon:cardIcon4,
         cardName:'JavaScript',
         cardInfo:'Adds interactivity to my web apps — from UI logic to dynamic content handling.',
-        cardLink:''
+        cardLink:'https://www.hackerrank.com/certificates/d6678c04801b'
     }
 ] 
 
