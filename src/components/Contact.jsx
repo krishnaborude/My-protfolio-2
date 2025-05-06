@@ -19,10 +19,10 @@ function Contact() {
       Have an idea, a question, or just want to say hi? Let’s connect and make something awesome together.</p>
       <p className="email">krishnaborude.contact@gmail.com</p>
       <div className="socials">
-        <a href=""><span><FaLinkedin /></span></a>
-        <a href=""><span><IoLogoGithub /></span></a>
+        <a href="https://www.linkedin.com/in/borude-krishna/"><span><FaLinkedin /></span></a>
+        <a href="https://github.com/krishnaborude"><span><IoLogoGithub /></span></a>
         <a href=""><span><TbMailFilled /></span></a>
-        <a href=""><span><SiLeetcode /></span></a>
+        <a href="https://leetcode.com/u/krishna3333/"><span><SiLeetcode /></span></a>
       </div>
       </div>
       <div className="contact-form">
