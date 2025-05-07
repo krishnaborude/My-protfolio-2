@@ -94,9 +94,9 @@ export const projectsData = [
         id:3,
         img:project3,
         name:'Tic Tac Toe',
-        des:'',
-        prokectlink:'',
-        githublink:''
+        des:'Modern Tic Tac Toe game with sleek UI, offering two modes: Play with Friend and Play with AI.',
+        prokectlink:'https://tic-tac-toe-game-pi-henna.vercel.app/',
+        githublink:'https://github.com/krishnaborude/Tic-Tac-Toe-Game/tree/master'
     },
     {
         id:4,
