@@ -15,7 +15,7 @@ export const headData = [
 ]
 
 
-import ytIcon from '../assets/yt.png'; 
+import ytIcon from '../assets/yt.svg'; 
 
 export const aboutData = [
     {
