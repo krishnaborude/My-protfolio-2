@@ -101,9 +101,9 @@ export const projectsData = [
     {
         id:4,
         img:project4,
-        name:'Capstone Project',
-        des:'',
-        prokectlink:'',
-        githublink:''
+        name:'Personal Portfolio 1',
+        des:'A passionate Full Stack Developer & Data Scientist, crafting smart, scalable web solutions. I turn ideas into interactive digital experiences powered by code and data.',
+        prokectlink:'https://my-portfolio-v1-wine.vercel.app/',
+        githublink:'https://github.com/krishnaborude/My-Portfolio'
     }
 ] 
