@@ -77,10 +77,10 @@ export const projectsData = [
     {
         id:1,
         img:project1,
-        name:'',
-        des:'',
-        prokectlink:'',
-        githublink:''
+        name:'Play With AI',
+        des:'Challenge smart AI in Tic Tac Toe or Chess with adaptive or strategic difficulty, real-time moves, and intelligent predictions.',
+        prokectlink:'https://play-with-ai-xi.vercel.app/',
+        githublink:'https://github.com/krishnaborude/Play-With-AI'
     },
     {
         id:2,
