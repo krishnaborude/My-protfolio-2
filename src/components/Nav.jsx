@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 
-import logo from '../assets/logo.png';
+import logo from '../assets/logo.svg';
 import NavAudio from '../assets/audio.mp3'; 
 
 import { IoVolumeMuteOutline, IoVolumeHighOutline } from 'react-icons/io5';
