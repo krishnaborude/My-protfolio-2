@@ -72,7 +72,7 @@ import project1 from '../assets/project1.svg';
 import project2 from '../assets/project2.svg';
 import project3 from '../assets/project3.svg';
 import project4 from '../assets/project4.svg';
-
+import project5 from '../assets/project5.svg';
 export const projectsData = [
     {
         id:1,
@@ -100,6 +100,22 @@ export const projectsData = [
     },
     {
         id:4,
+        img:project4,
+        name:'Personal Portfolio 1',
+        des:'A passionate Full Stack Developer & Data Scientist, crafting smart, scalable web solutions. I turn ideas into interactive digital experiences powered by code and data.',
+        prokectlink:'https://my-portfolio-v1-wine.vercel.app/',
+        githublink:'https://github.com/krishnaborude/My-Portfolio'
+    },
+    {
+        id:5,
+        img:project5,
+        name:'CaterServ Clone',
+        des:'A modern, responsive website built for a professional catering business. It features a clean layout, event showcases, blog sections, and vibrant visuals to highlight services. Developed using HTML, CSS (Bootstrap), and optimized images to ensure a smooth user experience across devices.',
+        prokectlink:'https://caterserv-clone.vercel.app/',
+        githublink:'https://github.com/krishnaborude/CaterServ_clone'
+    },
+    {
+        id:6,
         img:project4,
         name:'Personal Portfolio 1',
         des:'A passionate Full Stack Developer & Data Scientist, crafting smart, scalable web solutions. I turn ideas into interactive digital experiences powered by code and data.',
