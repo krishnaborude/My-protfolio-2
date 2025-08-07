@@ -73,6 +73,7 @@ import project2 from '../assets/project2.svg';
 import project3 from '../assets/project3.svg';
 import project4 from '../assets/project4.svg';
 import project5 from '../assets/project5.svg';
+import project6 from '../assets/project6.svg';
 export const projectsData = [
     {
         id:1,
@@ -116,10 +117,10 @@ export const projectsData = [
     },
     {
         id:6,
-        img:project4,
-        name:'Personal Portfolio 1',
-        des:'A passionate Full Stack Developer & Data Scientist, crafting smart, scalable web solutions. I turn ideas into interactive digital experiences powered by code and data.',
-        prokectlink:'https://my-portfolio-v1-wine.vercel.app/',
-        githublink:'https://github.com/krishnaborude/My-Portfolio'
+        img:project6,
+        name:'PDF-Control',
+        des:'A web application designed to streamline PDF management tasks, offering features like merging, splitting, and editing PDFs with a user-friendly interface.',
+        prokectlink:'https://pdf-control.vercel.app/',
+        githublink:'https://github.com/krishnaborude/PDF-Control'
     }
 ] 
