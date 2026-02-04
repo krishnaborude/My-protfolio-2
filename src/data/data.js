@@ -1,4 +1,4 @@
-import heroImage from '../assets/hero.png'; 
+import heroImage from '../assets/krishna-borude-profile.png'; 
 
 export const headData = [
     {
@@ -31,10 +31,10 @@ export const aboutData = [
 ]
 
 
-import cardIcon1 from '../assets/cardIcon1.png';
-import cardIcon2 from '../assets/cardIcon2.png';
-import cardIcon3 from '../assets/cardIcon3.png';
-import cardIcon4 from '../assets/cardIcon4.png';
+import cardIcon1 from '../assets/html-icon.png';
+import cardIcon2 from '../assets/python-icon.png';
+import cardIcon3 from '../assets/css-icon.png';
+import cardIcon4 from '../assets/javascript-icon.png';
 
 export const experienceData = [
     {
@@ -68,12 +68,12 @@ export const experienceData = [
 ] 
 
 
-import project1 from '../assets/project1.svg';
-import project2 from '../assets/project2.svg';
-import project3 from '../assets/project3.svg';
-import project4 from '../assets/project4.svg';
-import project5 from '../assets/project5.svg';
-import project6 from '../assets/project6.svg';
+import project1 from '../assets/play-with-ai-project.svg';
+import project2 from '../assets/personal-portfolio-v2.svg';
+import project3 from '../assets/tic-tac-toe-game.svg';
+import project4 from '../assets/personal-portfolio-v1.svg';
+import project5 from '../assets/caterserv-clone-project.svg';
+import project6 from '../assets/pdf-control-project.svg';
 export const projectsData = [
     {
         id:1,
