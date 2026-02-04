@@ -4,7 +4,7 @@ import { SiLeetcode } from "react-icons/si";
 import { TbMailFilled } from "react-icons/tb";
 import { FaLinkedin } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io";
-import heroImage from '../assets/hero.png'; 
+import heroImage from '../assets/krishna-borude-profile.png';
 import Vector from '../assets/Vector.svg';
 
 function Contact() {
@@ -14,16 +14,16 @@ function Contact() {
   return (
     <div id='contact' className="container contact-container">
       <div className="contact-info">
-      <h2 className="contact-h2">Contact</h2>
-      <p className='contact-para'>I’m always open to collaborating on projects that solve real problems with smart design and clean code.
-      Have an idea, a question, or just want to say hi? Let’s connect and make something awesome together.</p>
-      <p className="email">krishnaborude.contact@gmail.com</p>
-      <div className="socials">
-        <a href="https://www.linkedin.com/in/borude-krishna/"><span><FaLinkedin /></span></a>
-        <a href="https://github.com/krishnaborude"><span><IoLogoGithub /></span></a>
-        <a href=""><span><TbMailFilled /></span></a>
-        <a href="https://leetcode.com/u/krishna3333/"><span><SiLeetcode /></span></a>
-      </div>
+        <h2 className="contact-h2">Contact</h2>
+        <p className='contact-para'>I’m always open to collaborating on projects that solve real problems with smart design and clean code.
+          Have an idea, a question, or just want to say hi? Let’s connect and make something awesome together.</p>
+        <p className="email">krishnaborude.contact@gmail.com</p>
+        <div className="socials">
+          <a href="https://www.linkedin.com/in/borude-krishna/"><span><FaLinkedin /></span></a>
+          <a href="https://github.com/krishnaborude"><span><IoLogoGithub /></span></a>
+          <a href=""><span><TbMailFilled /></span></a>
+          <a href="https://leetcode.com/u/krishna3333/"><span><SiLeetcode /></span></a>
+        </div>
       </div>
       <div className="contact-form">
         <div className="form-section">
@@ -40,19 +40,19 @@ function Contact() {
               headers: { 'Accept': 'application/json' },
               body: formData
             })
-            .then(response => {
-              if (response.ok) {
-                setSubmitted(true);
-                e.target.reset(); // reset the form
-              }
-            })
-            .catch(error => console.error('Error:', error))
-            .finally(() => setLoading(false));
+              .then(response => {
+                if (response.ok) {
+                  setSubmitted(true);
+                  e.target.reset(); // reset the form
+                }
+              })
+              .catch(error => console.error('Error:', error))
+              .finally(() => setLoading(false));
           }}>
             <div>
-            <input type="text" name="firstName" placeholder='First Name' required/><input type="text" name="lastName" placeholder='Last Name' required/>
+              <input type="text" name="firstName" placeholder='First Name' required /><input type="text" name="lastName" placeholder='Last Name' required />
             </div>
-            <input type="email" name="email" placeholder='Email' required/>
+            <input type="email" name="email" placeholder='Email' required />
             <textarea name="message" cols="30" rows="10" placeholder='Message' required></textarea>
             <input type="hidden" name="_captcha" value="false" />
             <input type="hidden" name="_template" value="table" />
