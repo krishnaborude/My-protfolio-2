@@ -9,6 +9,7 @@ import Menu from './components/Menu'
 import Nav from './components/Nav'
 import Project from './components/Project'
 import Skills from './components/Skills'
+import AdBanner from './components/AdBanner'
 
 function App() {
   return (
@@ -19,8 +20,10 @@ function App() {
         <About/>
         <Experience/>
         <Skills/>
+        <AdBanner />
         <Project/>
         <Contact/>
+        <AdBanner />
         <Footer/>
         <Menu/>
       </main>
